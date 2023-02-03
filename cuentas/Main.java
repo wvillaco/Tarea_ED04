@@ -2,10 +2,13 @@ package cuentas;
 public class Main {
 
     public static void main(String[] args) {
-        CCuenta cuenta1;
-        double saldoActual;
+        @SuppressWarnings("unused")
+		CCuenta cuenta1;
+        @SuppressWarnings("unused")
+		double saldoActual;
+        float cantidad = 0f;
 
-        operativa_cuenta(null);
+        operativa_cuenta(cantidad);
     }
 
 	private static void operativa_cuenta(float cantidad) {
